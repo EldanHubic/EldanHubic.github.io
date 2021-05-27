@@ -2,10 +2,10 @@
 @import url(./fonts.css);
 
 /*Importovanje css varijabli*/
-@import url(partials/variables.css);
+@import url(variables.css);
 
 /* Importovanje global.css*/
-@import url(partials/global.css);
+@import url(global.css);
 
 /* Nav bar */
 .header_area .main-menu .navbar .navbar-brand {
