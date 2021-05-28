@@ -266,16 +266,15 @@
 /*SUBSCRIBE SECTION*/
 
 .site-main .subscribe-us-area .subscribe {
-  background: url(images/subscribe-bg.png) no-repeat;
-  padding: 10rem 0;
+  background: url(../images/subscribe-bg.png) no-repeat;
+  padding: 10rem 0rem;
   margin: 3rem auto;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
-  font: normal 700 30px/ 30px var(--roboto);
+  font: normal 700 30px/30px var(--roboto);
   color: whitesmoke;
 }
-
 .site-main .subscribe-us-area .subscribe .subscribe-title p {
   color: whitesmoke;
   padding: 1rem 4rem;
@@ -286,7 +285,7 @@
   padding: 1.5rem 1rem;
   border: 1px solid whitesmoke;
   background: transparent;
-  color: white;
+  color: whitesmoke;
   font: normal 500 17px/20px var(--roboto);
 }
 
@@ -300,7 +299,7 @@
 }
 
 .site-main .subscribe-us-area .subscribe form .btn-submit button {
-  background: whitesmoke;
+  background-color: whitesmoke;
   color: #000;
   padding: 0.7rem 2rem;
 }
@@ -308,7 +307,7 @@
 
 /*FOOTER*/
 footer.footer-area {
-  padding: 1rem 0rem;
+  padding: 5rem 0rem;
   background-image: url(./images/footer-bg.png) no-repeat;
 }
 
@@ -319,13 +318,14 @@ footer.footer-area .social h5 {
 footer.footer-area .social a > i {
   font-size: 22px;
   padding: 2rem;
-  color: gray;
-  opacity: 0.7;
+  color: var(--border-color);
 }
 
 footer.footer-area .social a:hover > i {
   color: var(--primary-color);
-  opacity: 1;
 }
 
+footer.footer-area .site-logo img {
+  margin-bottom: 80px;
+}
 /* END FOOTER */
