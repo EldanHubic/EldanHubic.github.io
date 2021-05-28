@@ -307,7 +307,7 @@
 
 /*FOOTER*/
 footer.footer-area {
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
   background-image: url(./images/footer-bg.png) no-repeat;
 }
 
@@ -318,14 +318,13 @@ footer.footer-area .social h5 {
 footer.footer-area .social a > i {
   font-size: 22px;
   padding: 2rem;
-  color: var(--border-color);
+  color: gray;
+  opacity: 0.7;
 }
 
 footer.footer-area .social a:hover > i {
   color: var(--primary-color);
+  opacity: 1;
 }
 
-footer.footer-area .site-logo img {
-  margin-bottom: 80px;
-}
 /* END FOOTER */
